@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body>*>*{
+ /* outline:2px solid; */
+}
+
+#top{
+  
+}
+#top>div.container{
+  margin-bottom:0; 
+}
+#top nav{
+  /*! overflow: hidden !important; */
+}
+#top .mainmenu{
+  float: right;
+}
+#top .mainmenu li{
+  
+}
+#top .mainmenu li a{
+  font-size: 17px;
+}
+#top nav .etcmenu{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#top nav .etcmenu li{
+  
+  float: none;
+  display: inline-block;
+}
+#top nav .etcmenu li a{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+/* 768이하 반응형모드 */
+@media screen and (max-width:768px){
+ 
+  #top .navbar-toggle{
+  top: 40px;
+  }
+  #top .mainmenu {
+    padding-top: 0px !important;
+    float: none;
+    display: block !important;
+    width: 100%;
+    text-align: left !important;
+  }
+  #top .mainmenu::after{
+    
+  content: "";
+  width: 95%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 auto;
+  }
+  #top nav .etcmenu{
+    
+  position: static;
+  }
+  #top nav .etcmenu li{
+  display: block;
+  text-align: left;
+  }
+  .container > .navbar-header .navbar-brand{
+    
+  float: left !important;
+  }
+  #top .mainmenu li{
+    
+  display: block !important;
+  }
+}
+
+@media screen and (max-width:992px){
+  #top > div.container{
+  width: 100%;
+  }
+  #top nav{
+    
+  width: 100% !important;
+  }
+  #top .mainmenu li{
+  float: none;
+  display: inline-block;
+  }
+  #top .mainmenu li a {
+   font-size: 17px;
+   padding-right: 0.7vw;
+   padding-left: 0.7vw;
+   color: #333;
+   }
+}
+
+@media screen and (max-width:1199px){
+  #top > div.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
+  #top nav{
+    
+  float: right;
+  width: 78%;
+  text-align: center;
+  }
+  #top .mainmenu li a{
+    
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+  #top .mainmenu{
+    
+  float: none;
+  display: inline-block;
+  }
+  #top nav .etcmenu{
+    
+  text-align: right !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
