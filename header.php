@@ -12,7 +12,7 @@
 		</div>	
 		<nav id="navi" class="collapse navbar-collapse">
 			<ul class="mainmenu nav navbar-nav"> 	 	 	 	 	 	
-				<li><a href="company-1.php">최신개봉작</a></li>
+				<li><a href="company-1.php">최신개봉작new</a></li>
 				<li><a href="company-1.php">상영예정작</a></li>
 				<li><a href="company-1.php">예매하기</a></li>
 				<li><a href="company-1.php">이용안내</a></li>

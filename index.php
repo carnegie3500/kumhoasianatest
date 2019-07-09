@@ -22,11 +22,9 @@
 <body>
 	<!-- 상단영역 -->
 	<? include "header.php" ?>
-	<!-- 서브타이틀영역 -->
+	<!-- 타이틀영역 -->
 	<? include "title.php" ?>
-	<!-- 서브메뉴영역 -->
-	<? include "header.php" ?>
-	<!-- 서브내용영역 -->
+	<!-- 내용영역 -->
 	<? include "contents.php" ?>
 	<!-- 하단영역 -->
 	<? include "footer.php" ?>
