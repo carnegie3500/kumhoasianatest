@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+#content {
+  /*! display:none; */
+  max-width: 1900px;
+  height: 1613px;
+  overflow: hidden;
+}
+
+#content div.content1{
+  
+  max-width: 1400px;
+  height: 1613px;
+  margin: 0 auto;
+  /*! border: 1px solid black; */
+  position: relative;
+}
+#content div.content1 div.scontent{
+  
+  /*! border: 1px solid black; */
+  /*! width: 1400px; */
+  height: 178px;
+  /*! text-align: center; */
+  display: inline-block;
+}
+#content div.content1 div.scontent h3{
+  
+  text-indent: -9999px;
+}
+#content div.content1 div.scontent p{
+  
+  font-size: 18px;
+  /*! text-align: left; */
+  display: block;
+  width: 533px;
+  margin: 0 auto;
+  text-align: left;
+  color: #737373;
+  font-weight: 400;
+  padding-top: 20px;
+}
+#content div.content1 div.scontent p .gray{
+  color: #444444;
+  font-size: 20px;
+  font-weight: bold;
+}
+#content div.content1 div.scontent p .gray + br + span{
+  color: #ed1c24;
+}
+#content div.content1 div.scontent p span:last-of-type{
+  color: #ed1c24;
+  font-size: 20px;
+  font-weight: bold;
+}
+#content div.content1 div.scontent p::before{
+  content: "";
+  background-image: url(../img/lquote.png);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-size: cover;
+  vertical-align: text-top;
+}
+#content div.content1 div.scontent p::after{
+  content: "";
+  background-image: url(../img/quote.png);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-size: cover;
+  vertical-align: text-top;
+}
+#content div.content1 div.pconten{
+  
+  width: 700px;
+  height: 1000px;
+}
+#content div.content1 div.scontent1{
+  
+  float: left;
+  width: 700px;
+  height: 178px;
+  text-align: left;
+  /*! border: 1px solid; */
+}
+#content div.content1 div.scontent1 h3{
+  
+  font-size: 40px;
+  padding: 35px 0 22px;
+}
+#content div.content1 div.scontent1 p{
+  
+  font-size: 16px;
+  color: #737373;
+}
+#content div.content1 div.scontent2{
+  
+  float: left;
+  clear: both;
+  position: relative;
+}
+#content div.content1 div.scontent2 h3{
+  
+  position: absolute;
+  top: 24px;
+  left: 20px;
+}
+#content div.content1 div.scontent2 p{
+  
+  background-image: url(../img/title2.png);
+  width: 700px;
+  height: 430px;
+  text-indent: -9999px;
+}
+#content div.content1 div.scontent3{
+  
+  float: right;
+  position: absolute;
+  top: 253px;
+  left: 700px;
+}
+#content div.content1 div.scontent3 h3{
+  
+  position: absolute;
+  top: 51px;
+  left: 33px;
+}
+#content div.content1 div.scontent3 p{
+  
+  background-image: url(../img/title1.png);
+  width: 700px;
+  height: 860px;
+  /*! position: absolute; */
+  text-indent: -9999px;
+}
+#content div.content1 div.scontent4{
+  
+  float: left;
+  clear: both;
+  position: relative;
+}
+#content div.content1 div.scontent4 h3{
+  
+  position: absolute;
+  top: 45px;
+  left: 13px;
+}
+#content div.content1 div.scontent4 p{
+  
+  background-image: url(../img/title3.png);
+  width: 700px;
+  height: 430px;
+  text-indent: -9999px;
+}
+#content div.content1 div.mlogo{
+
+  /*! position: absolute; */
+}
+#content div.content1 div.mlogo p:first-child{
+  background-image: 
+url(../img/images.png); 
+  background-position: -175px -56px;
+  width: 598px;
+  height: 132px;
+  position: absolute;
+  top: 178px;
+  left: 1119px;
+  text-indent: -9999px;
+}
+#content div.content1 div.mlogo p:first-child+p{
+    background-image: 
+url(../img/images.png); 
+  background-position: -175px -56px;
+  width: 598px;
+  height: 132px;
+  position: absolute;
+  left: -400px;
+  top:1155px;
+    text-indent: -9999px;
+}
+
+
+

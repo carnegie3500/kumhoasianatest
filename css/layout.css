@@ -1,140 +1,94 @@
-@charset "utf-8";
-
-body>*>*{
- /* outline:2px solid; */
-}
-
-#top{
-  
-}
-#top>div.container{
-  margin-bottom:0; 
-}
-#top nav{
-  /*! overflow: hidden !important; */
-}
-#top .mainmenu{
-  float: right;
-}
-#top .mainmenu li{
-  
-}
-#top .mainmenu li a{
-  font-size: 17px;
-}
-#top nav .etcmenu{
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-#top nav .etcmenu li{
-  
-  float: none;
-  display: inline-block;
-}
-#top nav .etcmenu li a{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  display: inline-block;
-}
-/* 768이하 반응형모드 */
-@media screen and (max-width:768px){
- 
-  #top .navbar-toggle{
-  top: 40px;
-  }
-  #top .mainmenu {
-    padding-top: 0px !important;
-    float: none;
-    display: block !important;
-    width: 100%;
-    text-align: left !important;
-  }
-  #top .mainmenu::after{
-    
-  content: "";
-  width: 95%;
-  height: 1px;
-  background-color: #ccc;
-  margin: 0 auto;
-  }
-  #top nav .etcmenu{
-    
-  position: static;
-  }
-  #top nav .etcmenu li{
-  display: block;
-  text-align: left;
-  }
-  .container > .navbar-header .navbar-brand{
-    
-  float: left !important;
-  }
-  #top .mainmenu li{
-    
-  display: block !important;
-  }
-}
-
-@media screen and (max-width:992px){
-  #top > div.container{
-  width: 100%;
-  }
-  #top nav{
-    
-  width: 100% !important;
-  }
-  #top .mainmenu li{
-  float: none;
-  display: inline-block;
-  }
-  #top .mainmenu li a {
-   font-size: 17px;
-   padding-right: 0.7vw;
-   padding-left: 0.7vw;
-   color: #333;
-   }
-}
-
-@media screen and (max-width:1199px){
-  #top > div.container{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  }
-  #top nav{
-    
-  float: right;
-  width: 78%;
+/*상단메뉴*/
+body{
+  font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
-  }
-  #top .mainmenu li a{
-    
-  padding-right: 10px;
-  padding-left: 10px;
-  }
-  #top .mainmenu{
-    
-  float: none;
-  display: inline-block;
-  }
-  #top nav .etcmenu{
-    
-  text-align: right !important;
-  }
+  /*! position: relative; */
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+/*-bounce fixed------------------------------------------------------------------------------------------*/
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0.4; }
+  100% { opacity:0.0; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+div#headerBottom i{
+  
+  font-size: 40px;
+  color: white;
+  -webkit-animation: flickerAnimation 1.9s infinite;
+   -moz-animation: flickerAnimation 1.9s infinite;
+   -o-animation: flickerAnimation 1.9s infinite;
+    animation: flickerAnimation 1.9s infinite;
+  /*! position: fixed; */
+  z-index: 2;
+}
+div#headerBottom .bounce{
+   position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  /*! margin-left:-20px; */
+  width: 40px;
+  height: 40px;
+background: #341d1d00;
+   z-index: 10;
+}
+.bounce {
+  animation: bounce 1.8s infinite;
+  
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  0% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+  
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+}
+/*-bounce fixed------------------------------------------------------------------------------------------*/
 

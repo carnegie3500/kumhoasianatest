@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+#company {
+  /*! display:none; */
+  max-width: 1900px;
+  background: url(../img/middle2.png)no-repeat;
+  height: 1000px;
+  position: relative;
+  background-size: contain;
+}
+#company .wwcopany{
+  width: 1400px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+  /*! background-image: url(../img/bg1.png); */
+}
+#company .wcompany{
+  
+  
+  float: left;
+}
+#company .wcompany > h3{
+  
+  /*! float: left; */
+  text-transform: uppercase;
+  font-size: 60px;
+  position: relative;
+  top: -71px;
+  font-weight: bold;
+}
+#company .wcompany > p{
+  
+  /*! float: left; */
+  text-align: left;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 27px;
+}
+#company .wcompany ul{
+  
+  padding-top: 37px;
+}
+#company .wcompany ul li{
+  
+}
+#company .wcompany ul li:first-child{
+  
+  width: 222px;
+  padding: 30px 0;
+  text-align: left;
+}
+#company .wcompany ul li:first-child h3{
+  
+  font-weight: bold;
+ 
+}
+#company .wcompany ul li:first-child h3::after{
+  content: "";
+  background-image: url(../img/images.png);
+  background-position: -253px 0px;
+  display: block;
+  height: 15px;
+  width: 10px;
+  float: right;
+}
+#company .wcompany ul li:first-child p{
+  
+}
+#company .wcompany ul li:first-child p::after{
+}
+
+#company .wcompany ul li{
+  
+}
+#company .wcompany ul li+li{
+  
+  width: 222px;
+  padding: 30px 0;
+  text-align: left;
+}
+#company .wcompany ul li+li h3{
+  
+  font-weight: bold;
+}
+#company .wcompany ul li+li h3::after{
+  content: "";
+  background-image: url(../img/images.png);
+  background-position: -253px 0px;
+  display: block;
+  height: 15px;
+  width: 10px;
+  float: right;
+}
+#company .wcompany ul li+li p{
+  
+}
+#company .mimg{
+  
+  float: right;
+  /*! width: 50px; */
+  /*! height: 50px; */
+  /*! border: 1px solid; */
+  position: absolute;
+  left: 600px;
+  top: -178px;
+}
+#company .mimg p{
+  
+  background-image: url(../img/middle1.png);
+  width: 1051px;
+  height: 600px;
+}
+#company .mimg a{
+  
+}
+#company .mimg span{
+  
+}

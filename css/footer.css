@@ -1,47 +1,5 @@
 @charset "utf-8";
 
-#bottom{
-  padding-bottom: 50px;
+#footer{
+  display:none;
 }
-#bottom .navbar-left{
-  width: auto;
-}
-#bottom .navbar-left a{
-display: block;
-text-indent: -9999px;
-background-image: url(../img/mvtree_logo.png);
-background-repeat: no-repeat;
-width: 185px;
-height: 70px;
-background-size: contain;
-}
-#bottom .navbar-right{
-  margin-top: 27px;
-  width: 74%;
-}
-#bottom p{
-  clear:both;
-  text-align: center;
-}
-/* 768미만 반응형모드 */
-@media screen and (max-width:768px){
-  #bottom .navbar-left a{
-  margin: 0 auto;
-  }
-  #bottom .navbar-right {
-  width: 95%;
-  }
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
