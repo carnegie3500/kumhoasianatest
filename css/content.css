@@ -104,6 +104,8 @@
   position: absolute;
   top: 24px;
   left: 20px;
+  /*! text-indent: -9999px; */
+  display: none;
 }
 #content div.content1 div.scontent2 p{
   
@@ -124,6 +126,7 @@
   position: absolute;
   top: 51px;
   left: 33px;
+  display: none;
 }
 #content div.content1 div.scontent3 p{
   
@@ -144,6 +147,7 @@
   position: absolute;
   top: 45px;
   left: 13px;
+  display: none;
 }
 #content div.content1 div.scontent4 p{
   

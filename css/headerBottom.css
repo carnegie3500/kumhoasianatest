@@ -14,7 +14,7 @@
   color: white
 }
 #headerBottom div p:first-of-type + p{
-  padding-top: 93px;
+  padding-top: 50px;
   /*! border: 1px solid black; */
   /*! width: 200px; */
   /*! height: 60px; */
@@ -42,9 +42,12 @@
 }
 #headerBottom >p{
     color: wheat;
-    margin-top: 400px;
+    margin-top: 420px;
     background-color: #ffffff17;
     padding: 10px;
     font-size: 16px;
-    padding: 4px;
+    /*! padding: 4px; */
+    line-height: 20px;
+    overflow: hidden;
+    line-height: 30px;
 }
