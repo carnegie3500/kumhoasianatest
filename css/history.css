@@ -22,21 +22,40 @@
   display: inline-block;
   width: 20%;
   box-sizing: border-box;
-  border: 1px solid;
+  border: 1px solid #C6C6C6;
   margin-left: -4px;
   height: 100%;
   vertical-align: top;
 }
+#history ul li:first-child:hover{
+  transform: perspective(500px)translateZ(60px);
+  background-color: white;
+  transition: all 0.5s;
+  opacity: 1;
+}
+#history ul li p:hover{
+  opacity: 1;
+}
 #history ul li p{
-  display: none;
+  opacity: 0;
 }
 #history ul li span{
   
-  display: none;
+  opacity: 0;
 }
 #history ul li h3{
   
   height: 255px;
+}
+#history ul li h3::after{
+  
+  content: "";
+  display: block;
+  /*! height: 2px; */
+  border: 2px solid #C6C6C6;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 70px;
 }
 #history ul li:not(:first-child){
   
