@@ -1,10 +1,8 @@
 @charset "utf-8";
 
 #content {
-  /*! display:none; */
-  max-width: 1900px;
+  max-width: 1920px;
   height: 1613px;
-  overflow: hidden;
 }
 
 #content div.content1{
