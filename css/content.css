@@ -94,7 +94,7 @@
 #content div.content1 div.scontent2{
   
   float: left;
-  clear: both;
+  /*! clear: both; */
   position: relative;
 }
 #content div.content1 div.scontent2 h3{
@@ -137,7 +137,7 @@
 #content div.content1 div.scontent4{
   
   float: left;
-  clear: both;
+  /*! clear: both; */
   position: relative;
 }
 #content div.content1 div.scontent4 h3{
