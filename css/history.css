@@ -27,17 +27,32 @@
   height: 100%;
   vertical-align: top;
 }
-#history ul li:first-child:hover{
+#history ul li:first-child:hover,
+#history ul li:nth-child(2):hover,
+#history ul li:nth-child(3):hover,
+#history ul li:nth-child(4):hover,
+#history ul li:nth-child(5):hover{
   transform: perspective(500px)translateZ(60px);
   background-color: white;
-  transition: all 0.5s;
+  transition: all 1s ease-in-out 0.5s;
   opacity: 1;
+  perspective-origin:;
+  border: 1px solid black;
+  box-shadow: 0 0 45px rgba(1,2,3,.6);
+  outline-offset: 15px;
 }
-#history ul li p:hover{
+#history ul li:first-child:hover p{
   opacity: 1;
+  font-size:10px;
+}
+#history ul li:first-child:hover h3 a{
+  transform: perspective(-500px)translateZ(-60px);
+  font-size: 16px;
+  transition: 
 }
 #history ul li p{
   opacity: 0;
+  transition: all 0.5s;
 }
 #history ul li span{
   
@@ -60,6 +75,7 @@
 #history ul li:not(:first-child){
   
   border-left: none;
+  /*! transform: perspective(428px) translateZ(66px); */
 }
 #history ul li:first-child h3:before{
   content: "";
