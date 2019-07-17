@@ -1,24 +1,23 @@
 @charset "utf-8";
 
 #company {
-  /*! display:none; */
-  max-width: 1900px;
-  background: url(../img/middle2.png)no-repeat;
+  background: url(../img/middle2.png)no-repeat 100% 100%;
   height: 624px;
   position: relative;
-  background-size: contain;
+  background-size: cover;
+  width: 100%;
 }
 #company .wwcopany{
-  width: 1400px;
-  /*! height: 1000px; */
+  width: 1920px;
   margin: 0 auto;
   position: relative;
-  /*! background-image: url(../img/bg1.png); */
 }
 #company .wcompany{
   
   
-  float: left;
+  /*! float: left; */
+  width: 1400px;
+  margin: 0 auto;
 }
 #company .wcompany > h3{
   
@@ -28,6 +27,7 @@
   position: relative;
   top: -71px;
   font-weight: bold;
+  text-align: left;
 }
 #company .wcompany > p{
   
@@ -96,19 +96,25 @@
 }
 #company .mimg{
   
-  float: right;
+  /*! float: right; */
   /*! width: 50px; */
   /*! height: 50px; */
   /*! border: 1px solid; */
-  position: absolute;
-  left: 600px;
-  top: -178px;
+  /*! position: absolute; */
+  /*! left: 600px; */
+  /*! top: -178px; */
+  /*! position: relative; */
+  /*! overflow: hidden; */
 }
-#company .mimg p{
+#company .mimg {
   
   background-image: url(../img/middle1.png);
-  width: 1051px;
   height: 600px;
+  background-size: cover;
+  position: absolute;
+  top: -249px;
+  width: 1051px;
+  right: 0;
 }
 #company .mimg a{
   

@@ -1,5 +1,134 @@
 @charset "utf-8";
 
 #footer{
-  display:none;
+  /*! display:none; */
+  background: #262626;
+  height: 166px;
+  border-bottom: 80px #303030 solid;
 }
+#footer div.wfooter{
+  
+  /*! height: 300px; */
+  width: 1400px;
+  margin: 0 auto;
+  /*! border: 1px solid; */
+  /*! border-bottom: 60px solid red; */
+}
+#footer div.wfooter:after{
+  
+  /*! content:  ""; */
+  /*! display: block; */
+  /*! width: 100%; */
+  /*! height: 500px; */
+  /*! border: 1px solid red; */
+  /*! margin-top: 164px; */
+  /*! position: relative; */
+  /*! width: 1900px; */
+  /*! top: 0; */
+  /*! left: -252px; */
+  /*! background: #303030; */
+  /*! height: 80px; */
+}
+/* 주소영역 */
+#footer div.address{
+  
+  float: left;
+  /*! height: 162px; */
+  /*! border: 1px solid yellow; */
+}
+#footer div.address h1{
+  
+  text-indent: -9999px;
+  position: relative;
+  top: 185px;
+  background: url(../img/logo2.png)no-repeat;
+  width: 189px;
+  height: 37px;
+}
+#footer div.address h1 a{
+  
+}
+#footer div.address ul{
+  
+  /*! display: inline-block; */
+  padding: 15px 0;
+}
+#footer div.address ul li{
+  
+  float: left;
+}
+#footer div.address div.wcopyright{
+  
+  padding-top: 28px;
+}
+#footer div.address ul li a{
+  
+  color: #a3a8a1;
+  padding-left: px;
+}
+#footer div.address ul li:not(:first-of-type) a{
+  
+  padding-left: 20px;
+}
+#footer div.address address{
+  
+}
+#footer div.address address span{
+  
+  color: #595853;
+}
+#footer div.address address p{
+  
+  position: relative;
+  top: 97px;
+  left: 81px;
+  color: #595853;
+}
+#footer div.groupsite{
+  
+  float: left;
+}
+#footer div.groupsite select{
+  
+  float: left;
+  all: unset;
+  float: left;
+  padding: 20px 30.5px;
+}
+#footer div.groupsite h2{
+  
+  padding-top: 31px;
+  text-indent: -9999px;
+}
+#footer div.groupsite ul{
+  
+  float: left;
+}
+#footer div.groupsite ul li{
+  
+  display: inline-block;
+  text-indent: -9999px;
+}
+#footer div.groupsite ul li:first-child a{background: url(../img/iconKKOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(2) a{background: url(../img/iconTMOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(3) a{background: url(../img/iconCTOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(4) a{background: url(../img/iconAAOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(5) a{background: url(../img/iconAIOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(6) a{background: url(../img/iconBXOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(7) a{background: url(../img/iconALOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(8) a{background: url(../img/iconASOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(9) a{background: url(../img/iconABOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(10) a{background: url(../img/iconRSOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(11) a{background: url(../img/iconCFOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(12) a{background: url(../img/iconEDOver.png) no-repeat;width: 30px;height: 30px;}
+
+#footer div.groupsite ul li a{
+  
+  /*! text-indent: -9999px; */
+}
+#footer div.
+
+
+
+
+
