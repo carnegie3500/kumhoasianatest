@@ -1,5 +1,221 @@
 @charset "utf-8";
 
 #newsroom{
-  display:none;
+  height: 1000px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#ffffff)) fixed;
+}
+#newsroom article{
+ width: 1400px;
+ height: 700px;
+ margin: 0 auto;
+}
+#newsroom article > div{
+
+}
+#newsroom article > div:first-child{
+
+  height: 700px;
+}
+
+#newsroom article > div:first-child h3{
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: inherit;
+}
+#newsroom article > div:first-child h4{
+  padding-top: 10px;
+}
+#newsroom article > div:first-child ul{
+
+  padding-top: 47px;
+}
+#newsroom article > div:first-child ul li{
+
+  float: left;
+  width: 33.333%;
+  text-align: left;
+}
+#newsroom article > div:first-child a{
+  
+  display: block;
+  padding-top: 10px;
+}
+#newsroom article > div:first-child time{
+  
+  font-size: 14px;
+  color: #777777;
+  padding-top: 60px;
+  display: block;
+}
+
+
+#newsroom article > div:first-child ul li:first-child{
+
+}
+#newsroom article > div:first-child ul li:first-child:before{
+ content: "";
+ background: url(../img/news1.png);
+ width: 452px;
+ height: 291px;
+ display: block;
+}
+#newsroom article > div:first-child ul li:first-child h4{
+  
+}
+#newsroom article > div:first-child ul li:first-child a{
+  
+}
+#newsroom article > div:first-child ul li:first-child time{
+  
+}
+
+#newsroom article > div:first-child ul li:nth-child(2){
+
+}
+#newsroom article > div:first-child ul li:nth-child(2):before{
+  content: "";
+background: url(../img/news2.png);
+width: 452px;
+height: 291px;
+display: block;
+}
+#newsroom article > div:first-child ul li:nth-child(3) h4{
+  
+}
+#newsroom article > div:first-child ul li:nth-child(3) a{
+  
+}
+#newsroom article > div:first-child ul li:nth-child(3) time{
+  
+}
+
+#newsroom article > div:first-child ul li:nth-child(3){
+
+}
+#newsroom article > div:first-child ul li:nth-child(3):before{
+ content: "";
+background: url(../img/news3.png);
+width: 452px;
+height: 291px;
+display: block;
+
+}
+#newsroom article > div:first-child ul li:nth-child(3) h4{
+  
+}
+#newsroom article > div:first-child ul li:nth-child(3) a{
+  
+}
+#newsroom article > div:first-child ul li:nth-child(3) time{
+  
+}
+
+
+#newsroom article > div + div{
+
+  width: 1400px;
+  height: 233px;
+}
+#newsroom article > div + div h3{
+
+  text-indent: -9999px;
+}
+#newsroom article > div + div h3+ul{
+
+  /*! border: 1px solid; */
+  height: 223px;
+  width: 1300px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#newsroom article > div + div ul > li{
+
+  float: left;
+  width: 373px;
+  text-align: left;
+  padding: 0 50px;
+}
+#newsroom article > div + div:first-child ul {
+  
+  height: 233px;
+  /*! width: 1300px; */
+}
+#newsroom article > div + div ul li:first-child li{
+  
+  width: 100%;
+}
+#newsroom article > div + div ul li h4{
+  
+  padding-top: 44px;
+  padding: 44px 0 19px;
+  border-bottom: 1px solid #777777;
+}
+#newsroom article > div + div ul li p{
+
+  float: left;
+}
+#newsroom article > div + div > ul > li:nth-child(-n+2) li:before{
+  content: "";
+  background-image: url(../img/newspoint.png);
+  
+  width: 3px;
+  height: 3px;
+  float: left;
+  position: relative;
+  top: 6px;
+  left: -4px;
+}
+#newsroom article > div + div ul li time{
+  
+  float: right;
+  color: #777777;
+  font-size: 14px;
+  font-weight: lighter;
+}
+#newsroom article > div + div ul li ul{
+  padding-top: 25px;
+}
+#newsroom article > div + div > ul > li ul{
+  
+}
+
+#newsroom article > div + div > ul > li ul li{
+
+  padding: 7px 0 7px;
+}
+#newsroom article > div + div > ul > li:nth-child(2){
+  
+  padding-right: 25px;
+}
+
+#newsroom article > div + div > ul > li:nth-child(2) ul li{
+  width: 100%;
+}
+#newsroom article > div + div >ul >li:nth-child(n+3){
+  
+  padding: 0;
+  padding-top: 37px;
+  text-indent: -9999px;
+ 
+}
+#newsroom article > div + div >ul >li:nth-child(3){
+   background-image: url(../img/images.png);
+  height: 152px;
+   width: 354px;
+   background-position: -722px -283px;
+}
+#newsroom article > div + div >ul >li:nth-child(4){
+  
+  all: unset;
+  text-indent: -9999px;
+}
+#newsroom article > div + div >ul >li:nth-child(n+3) h4{
+  
+  float: left;
+}
+#newsroom article > div + div ul li+li+li h4{
+  
+  padding: 0;
 }
