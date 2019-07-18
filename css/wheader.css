@@ -43,13 +43,17 @@
 }
 #wheader #header .wmainMenu{
   
-  display: inline-block;
-  width: 1700px;
+  /*! display: inline-block; */
+  /*! width: 1700px; */
+  margin: 0 auto;
 }
 #wheader #header .wmainMenu .mainMenu{
   
   display: inline-block;
-  /*! line-height: 80px; */
+  /*! text-align: right; */
+  /*! width: 1000px; */
+  margin: 0 auto;
+  margin-left: 50px;
 }
 #wheader #header .wmainMenu .mainMenu h2{
   
@@ -75,6 +79,7 @@
 #wheader #header .wright .wlang{
   
   float: left;
+  margin-right: 60px;
 }
 #wheader #header .wright .wlang+ul{
   
@@ -86,12 +91,14 @@
 }
 
 #wheader #header .wmainMenu button:first-child+button{
+  all: unset;
   background: url(../img/hbtn.png) no-repeat center;
   width: 90px;
   height: 80px;
   display: inline-block;
 }
 #wheader #header .wmainMenu .wright button:first-child{
+  all:unset;
   content: "";
   background: url(../img/images.png) -40px -5px;
   width: 25px;
@@ -101,6 +108,7 @@
   position: relative;
   vertical-align: middle;
   text-indent: -9999px;
+  margin-right: 30px;
 }
 /*--------------------------메뉴바-----------------*/
 /*--------------------------sitemap---------------*/

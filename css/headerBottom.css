@@ -28,17 +28,34 @@
   padding: 20px 60px;
   font-size: 16px;
 }
+#headerBottom div p:first-of-type + p a:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  transition: all 1s;
+}
 #headerBottom div p:first-of-type + p a::after{
   content: "";
-  background: url(../img/images.png);
-  background-position: -226px 2px;
+  background: url(../img/mainoverw.png)no-repeat center;
   width: 8px;
   height: 16px;
 
   display: inline-block;
   /*! padding-left: 38px; */
-  vertical-align: revert;
   margin-left: 40px;
+  
+  vertical-align: top;
+  transition: all 1s;
+}
+#headerBottom div p:first-of-type + p a:hover:after{
+  content: "";
+  background: url(../img/mainover.png) no-repeat center;
+  width: 8px;
+  display: inline-block;
+  /*! vertical-align: middle; */
+  margin-left: 40px;
+  vertical-align: top;
+  /*! transition: all 1s; */
 }
 #headerBottom >p{
     color: wheat;

@@ -40,34 +40,26 @@
 #history ul li:nth-child(3):hover,
 #history ul li:nth-child(4):hover,
 #history ul li:nth-child(5):hover{
-  transform: perspective(500px)translateZ(60px);
+  
   background-color: white;
   /*! transition: all 0.3s ease-in-out 0.3s; */
   opacity: 1;
-  perspective-origin:;
   border: 1px solid #C6C6C6;
   box-shadow: 0 0 45px rgba(1,2,3,.6);
   outline-offset: 15px;
   outline-color: gray;
 }
-#history ul li:first-child:hover p{
+#history ul li:first-child:hover p,
+#history ul li:nth-child(2):hover p,
+#history ul li:nth-child(3):hover p,
+#history ul li:nth-child(4):hover p,
+#history ul li:nth-child(5):hover p{
   opacity: 1;
-  font-size:10px;
 }
+
 #history ul li:nth-child(4):hover h3{
   height: 200px;
   /*! border: none; */
-}
-
-#history ul li:first-child:hover h3{
-  display: none;
-}
-#history ul li:first-child:hover h3 a,
-#history ul li:nth-child(2):hover,
-#history ul li:nth-child(3):hover,
-#history ul li:nth-child(4):hover,
-#history ul li:nth-child(5):hover{
-  font-size: 16px;
 }
 #history ul li:nth-child(4):hover{
   background: url(../img/keumhomisulkwan.png) no-repeat center;
@@ -88,7 +80,6 @@
   transition: all 0.5s;
 }
 #history ul li span{
-  
   opacity: 0;
 }
 #history ul li h3{
