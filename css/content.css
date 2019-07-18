@@ -113,6 +113,37 @@
   height: 430px;
   text-indent: -9999px;
 }
+#content div.content1 div.scontent2 p:hover:before{
+  background: linear-gradient(rgba(225, 94, 136, 0.3),rgba(235, 239, 247, 0.3));
+  content: "";
+  display: block;
+  text-indent: -9999px;
+  position: relative;
+  height: 430px;
+  transition: all 1s;
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  width: 900px;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 #content div.content1 div.scontent3{
   
   float: right;
@@ -128,11 +159,27 @@
   display: none;
 }
 #content div.content1 div.scontent3 p{
-  
+  text-indent: -9999px;
   background-image: url(../img/title1.png);
   width: 700px;
   height: 860px;
   /*! position: absolute; */
+  text-indent: -9999px;
+  -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#content div.content1 div.scontent3 p:hover:before{
+  content: "";
+  display: block;
+  /*! text-indent: -9999px; */
+  position: relative;
+  height: 860px;
+  width: 700px;
+-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+  background-image: url(../img/title1.png);
   text-indent: -9999px;
 }
 #content div.content1 div.scontent4{

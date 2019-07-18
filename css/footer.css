@@ -93,7 +93,34 @@
   float: left;
   all: unset;
   float: left;
-  padding: 20px 30.5px;
+  padding: 6px 50.5px 6px 15px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+#footer div.groupsite ul::before{content: "";
+  background: url(../img/downbtn.png)no-repeat center;
+  width: 12px;
+  height: 7px;
+  display: inline-block;
+position: relative;
+top: 4px;
+left: -60px;
+}
+
+#footer div.groupsite select::before{
+  content: "";
+  background: url(../img/downbtn.png)no-repeat center;
+  width: 12px;
+  height: 7px;
+  display: inline-block;
+}
+#footer div.groupsite select::after{
+  content: "";
+  background: url(../img/downbtn.png)no-repeat center;
+  width: 12px;
+  height: 7px;
+  display: inline-block;
 }
 #footer div.groupsite h2{
   
@@ -103,30 +130,31 @@
 #footer div.groupsite ul{
   
   float: left;
+  padding-left: 36px;
 }
 #footer div.groupsite ul li{
   
   display: inline-block;
   text-indent: -9999px;
 }
-#footer div.groupsite ul li:first-child a{background: url(../img/iconKKOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(2) a{background: url(../img/iconTMOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(3) a{background: url(../img/iconCTOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(4) a{background: url(../img/iconAAOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(5) a{background: url(../img/iconAIOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(6) a{background: url(../img/iconBXOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(7) a{background: url(../img/iconALOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(8) a{background: url(../img/iconASOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(9) a{background: url(../img/iconABOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(10) a{background: url(../img/iconRSOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(11) a{background: url(../img/iconCFOver.png) no-repeat;width: 30px;height: 30px;}
-#footer div.groupsite ul li:nth-child(12) a{background: url(../img/iconEDOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:first-child {background: url(../img/iconKKOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(2) {background: url(../img/iconTMOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(3) {background: url(../img/iconCTOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(4) {background: url(../img/iconAAOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(5) {background: url(../img/iconAIOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(6) {background: url(../img/iconBXOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(7) {background: url(../img/iconALOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(8) {background: url(../img/iconASOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(9) {background: url(../img/iconABOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(10) {background: url(../img/iconRSOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(11) {background: url(../img/iconCFOver.png) no-repeat;width: 30px;height: 30px;}
+#footer div.groupsite ul li:nth-child(12) {background: url(../img/iconEDOver.png) no-repeat;width: 30px;height: 30px;}
 
 #footer div.groupsite ul li a{
   
   /*! text-indent: -9999px; */
 }
-#footer div.
+
 
 
 
